@@ -23,7 +23,9 @@ docker-compose up -d
 ``` 
 http://localhost:3000/auth/register
 ```
+
 __Nota:__ *Todas las rutas necesitan el bearer token que se obtiene registrando o iniciando sesión en el login*
+
 9. Ejecutar SEED para cargar productos aleatorios
  ``` 
  http://localhost:3000/product/seed
