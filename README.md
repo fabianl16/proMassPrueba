@@ -19,7 +19,7 @@ npm install
 docker-compose up -d
 ```
 6. Levantar: ``` npm run start:dev ```
-7. Registrar usuario
+7. Registrar usuario colocando email, name y password
 ``` 
 http://localhost:3000/auth/register
 ```
