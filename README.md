@@ -19,7 +19,12 @@ npm install
 docker-compose up -d
 ```
 6. Levantar: ``` npm run start:dev ```
-7. Ejecutar SEED para cargar productos aleatorios
+7. Registrar usuario
+``` 
+http://localhost:3000/auth/register
+```
+__Nota:__ *Todas las rutas necesitan el bearer token que se obtiene registrando o iniciando sesión en el login*
+9. Ejecutar SEED para cargar productos aleatorios
  ``` 
  http://localhost:3000/product/seed
  ```
