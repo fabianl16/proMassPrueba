@@ -18,8 +18,8 @@ npm install
 ```
 docker-compose up -d
 ```
-6. Ejecutar SEED para cargar productos aleatorios
+6. Levantar: ``` npm run start:dev ```
+7. Ejecutar SEED para cargar productos aleatorios
  ``` 
  http://localhost:3000/product/seed
  ```
-7. Levantar: ``` npm run start:dev ```
